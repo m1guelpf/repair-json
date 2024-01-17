@@ -1,0 +1,13 @@
+[package]
+license = "MIT"
+edition = "2021"
+version = "0.1.0"
+name = "repair_json"
+readme = "README.md"
+authors = ["Miguel Piedrafita <rust@miguel.build>"]
+repository = "https://github.com/m1guelpf/repair-json"
+keywords = ["json", "repair", "incomplete", "streaming"]
+description = "Repair incomplete JSON (e.g. from streaming APIs) so it can be parsed as it is received."
+
+[dependencies]
+thiserror = "1.0.56"
